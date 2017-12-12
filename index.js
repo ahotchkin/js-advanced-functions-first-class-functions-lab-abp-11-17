@@ -1,15 +1,15 @@
 // Code your solution in this file!
 const drivers = ['Sally', 'Bob', 'Freddy', 'Claudia'];
 
-const firstTwo = function returnFirstTwoDrivers(drivers){
+const returnFirstTwoDrivers = function (drivers){
   return drivers.slice(0, 2);
 }
 
-const lastTwo = function returnLastTwoDrivers(drivers){
+const returnLastTwoDrivers = function (drivers){
   return drivers.slice(2, 4);
 }
 
-const selectingDrivers = [firstTwo, lastTwo]
+const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers]
 
 function createFareMultiplier(x, fareMultiplier){
   return function fareMultiplier() {
