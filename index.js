@@ -26,7 +26,7 @@ function fareTripler(x){
 }
 
 function selectDifferentDrivers(drivers, returnDrivers){
-  if (returnDrivers === returnFirstTwoDrivers) return returnFirstTwoDrivers;
-  if (returnDrivers === returnLastTwoDrivers) return returnLastTwoDrivers;
+  if (returnDrivers === returnFirstTwoDrivers) return drivers.slice(0, 2);
+  if (returnDrivers === returnLastTwoDrivers) return drivers.slice(2, 4);
 
 }
