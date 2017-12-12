@@ -26,7 +26,7 @@ function fareTripler(x){
 }
 
 function selectDifferentDrivers(drivers){
-  return selectingDrivers
+  return returnFirstTwoDrivers
 }
 
 // describe('selectDifferentDrivers(arrayOfDrivers, function)', function () {
