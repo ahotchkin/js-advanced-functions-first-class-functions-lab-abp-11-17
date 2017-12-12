@@ -9,7 +9,7 @@ const lastTwo = function returnLastTwoDrivers(drivers){
   return drivers.slice(2, 4);
 }
 
-const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers]
+const selectingDrivers = [firstTwo, lastTwo]
 
 function createFareMultiplier(x, fareMultiplier){
   return function fareMultiplier() {
